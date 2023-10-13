@@ -83,7 +83,7 @@ a:hover {
     font-style: italic;
 }
 
-img {
+.large-image {
     border: 5px solid #ddd;
     padding: 1px;
     border-radius: 20px;
@@ -116,4 +116,9 @@ img {
     padding: 20px;
     font-size: 30px;
     text-align: center;
+}
+
+img {
+    max-width: 20%;
+    height: auto;
 }
